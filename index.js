@@ -1,9 +1,9 @@
-let tween = gsap.timeline();
+const tween = gsap.timeline();
 
-var cursor = document.getElementsByClassName("cursor")[0];
+const cursor = document.getElementsByClassName("cursor")[0];
 follower = document.getElementsByClassName("cursor-follower")[0];
 
-var posX = 0,
+const posX = 0,
   posY = 0,
   mouseX = 0,
   mouseY = 0;
